@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: local-grpc-server
+  main:
+    allow-circular-references: true
+grpc:
+  server:
+    port: 9898
