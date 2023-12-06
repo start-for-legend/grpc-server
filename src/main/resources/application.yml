@@ -1,8 +1,10 @@
-spring:
-  application:
-    name: local-grpc-server
-  main:
-    allow-circular-references: true
 grpc:
   server:
     port: 9090
+spring:
+  application:
+    name: user-service
+  main:
+    allow-circular-references: true
+server:
+  port: 9099
