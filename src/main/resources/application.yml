@@ -5,4 +5,4 @@ spring:
     allow-circular-references: true
 grpc:
   server:
-    port: 9898
+    port: 9090

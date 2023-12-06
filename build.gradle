@@ -15,7 +15,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'net.devh:grpc-server-spring-boot-starter:2.12.0.RELEASE'
-	implementation files('libs/grpc-interface-1.0-SNAPSHOT.jar')
+	implementation files('libs/grpc-interface.jar')
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
